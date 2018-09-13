@@ -25,8 +25,10 @@
       <row>
          <process><![CDATA[! insert these lines in your script to determine if an error occurred
 !
-! @set retcode=%errorlevel%
-! @if NOT %ERRORLEVEL% == 0 goto :retcode
+@set retcode=%errorlevel%
+@if NOT %ERRORLEVEL% == 0 goto :retcode
+dir
+ipconfig
 ]]></process>
       </row>
    </scripts>
