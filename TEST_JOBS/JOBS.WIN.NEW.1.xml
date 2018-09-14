@@ -12,7 +12,7 @@
          <child_flags>00000000000000000000000000000000</child_flags>
          <platform>WINDOWS</platform>
          <last_runtimes>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</last_runtimes>
-         <max_parallel_action>1</max_parallel_action>
+         <max_parallel_action>2</max_parallel_action>
          <mrt_time>000000</mrt_time>
          <name>JOBS.WIN.TEST</name>
          <type>JOBS</type>
@@ -29,6 +29,7 @@
 @if NOT %ERRORLEVEL% == 0 goto :retcode
 dir
 ipconfig
+! My job rules
 ]]></process>
       </row>
    </scripts>
