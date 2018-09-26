@@ -14,10 +14,10 @@
          <last_runtimes>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</last_runtimes>
          <max_parallel_action>2</max_parallel_action>
          <mrt_time>000000</mrt_time>
-         <name>JOBS.WIN.TEST</name>
+         <name>JOBS.WIN.TEST.JIM</name>
          <type>JOBS</type>
          <inherit_output_filter>N</inherit_output_filter>
-         <queue>CLIENT_QUEUE</queue>
+         <queue>JIM_QUEUE</queue>
          <versioning_id>-1706450110</versioning_id>
       </row>
    </general_attributes>
